@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Open Sans";
+    src:
+      url("./fonts/OpenSans-Regular.woff") format("woff"),
+      url("./fonts/OpenSans-Regular.woff2") format("woff2");
+  }
+#image-container {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: none; 
+}
+img.active {
+    display: block; 
+}
+body{
+  background: bisque;
+  font-family: "OpenSans";
+}
+.div-button{
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin-top: 16px;
+  background: rgb(254, 168, 77);
+  color: white;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+}
